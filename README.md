@@ -1,16 +1,10 @@
 ## The node.js example app
 
-[![CircleCI](https://img.shields.io/circleci/project/github/contentful/the-example-app.nodejs.svg)](https://circleci.com/gh/contentful/the-example-app.nodejs)
-
 The node.js example app teaches the very basics of how to work with Contentful:
 
 - consume content from the Contentful Delivery and Preview APIs
 - model content
 - edit content through the Contentful web app
-
-The app demonstrates how decoupling content from its presentation enables greater flexibility and facilitates shipping higher quality software more quickly.
-
-<a href="https://the-example-app-nodejs.herokuapp.com/" target="_blank"><img src="https://images.contentful.com/qz0n5cdakyl9/4GZmvrdodGM6CksMCkkAEq/700a527b8203d4d3ccd3c303c5b3e2aa/the-example-app.png" alt="Screenshot of the example app"/></a>
 
 ## Requirements
 
@@ -116,6 +110,7 @@ docker images
 Step 3: Tag your image accordingly with your Docker hub user
 ```bash
 docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry
+```
 
 Step 4: Push your image to the Docker hub
 ```bash 
