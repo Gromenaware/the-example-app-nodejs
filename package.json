@@ -17,7 +17,8 @@
     "test:integration": "jest test/integration",
     "test:integration:watch": "jest test/integration --watch",
     "test:unit": "jest test/unit",
-    "test:unit:watch": "jest test/unit --watch"
+    "test:unit:watch": "jest test/unit --watch",
+    "cypress:open": "cypress open"
   },
   "engines": {
     "node": ">=8.9.3"
@@ -38,6 +39,7 @@
   "devDependencies": {
     "cheerio": "^1.0.0-rc.2",
     "cookie": "^0.3.1",
+    "cypress": "^3.2.0",
     "eslint": "^4.18.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.8.0",
