@@ -1,6 +1,6 @@
 {
-  "name": "example-contentful-theExampleApp-js",
-  "version": "0.0.0",
+  "name": "example-jenkins-theExampleApp-js",
+  "version": "2022.09.22",
   "private": true,
   "scripts": {
     "start:watch": "nodemon ./bin/www --ignore public/",
